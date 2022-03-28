@@ -1,0 +1,570 @@
+/* *************************************************************
+ * GET THE SVG CODE
+ * ************************************************************/
+@font-face {
+  font-family: 'Aleo-Bold';
+  src: url("fonts/Aleo/Aleo-Bold-webfont.eot");
+  src: url("fonts/Aleo/Aleo-Bold-webfont.eot?iefix") format("eot"), url("fonts/Aleo/Aleo-Bold-webfont.woff") format("woff"), url("fonts/Aleo/Aleo-Bold-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url("fonts/Aleo/Aleo-Regular-webfont.eot");
+  src: url("fonts/Aleo/Aleo-Regular-webfont.eot?iefix") format("eot"), url("fonts/Aleo/Aleo-Regular-webfont.woff") format("woff"), url("fonts/Aleo/Aleo-Regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Aleo-Light';
+  src: url("fonts/Aleo/Aleo-Light-webfont.eot");
+  src: url("fonts/Aleo/Aleo-Light-webfont.eot?iefix") format("eot"), url("fonts/Aleo/Aleo-Light-webfont.woff") format("woff"), url("fonts/Aleo/Aleo-Light-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("fonts/OpenSans/OpenSans-Regular-webfont.eot");
+  src: url("fonts/OpenSans/OpenSans-Regular-webfont?iefix") format("eot"), url("fonts/OpenSans/OpenSans-Regular-webfont.woff") format("woff"), url("fonts/OpenSans/OpenSans-Regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'OpenSans-Italic';
+  src: url("fonts/OpenSans/OpenSans-Italic.eot");
+  src: url("fonts/OpenSans/OpenSans-Italic?iefix") format("eot"), url("fonts/OpenSans/OpenSans-Italic.woff") format("woff"), url("fonts/OpenSans/OpenSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("fonts/OpenSans/OpenSans-Bold.eot");
+  src: url("fonts/OpenSans/OpenSans-Bold?iefix") format("eot"), url("fonts/OpenSans/OpenSans-Bold.woff") format("woff"), url("fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Aleo-Bold';
+  src: url("fonts/Aleo/Aleo-Bold-webfont.eot");
+  src: url("fonts/Aleo/Aleo-Bold-webfont.eot?iefix") format("eot"), url("fonts/Aleo/Aleo-Bold-webfont.woff") format("woff"), url("fonts/Aleo/Aleo-Bold-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url("fonts/Aleo/Aleo-Regular-webfont.eot");
+  src: url("fonts/Aleo/Aleo-Regular-webfont.eot?iefix") format("eot"), url("fonts/Aleo/Aleo-Regular-webfont.woff") format("woff"), url("fonts/Aleo/Aleo-Regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Aleo-Light';
+  src: url("fonts/Aleo/Aleo-Light-webfont.eot");
+  src: url("fonts/Aleo/Aleo-Light-webfont.eot?iefix") format("eot"), url("fonts/Aleo/Aleo-Light-webfont.woff") format("woff"), url("fonts/Aleo/Aleo-Light-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("fonts/OpenSans/OpenSans-Regular-webfont.eot");
+  src: url("fonts/OpenSans/OpenSans-Regular-webfont?iefix") format("eot"), url("fonts/OpenSans/OpenSans-Regular-webfont.woff") format("woff"), url("fonts/OpenSans/OpenSans-Regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'OpenSans-Italic';
+  src: url("fonts/OpenSans/OpenSans-Italic.eot");
+  src: url("fonts/OpenSans/OpenSans-Italic?iefix") format("eot"), url("fonts/OpenSans/OpenSans-Italic.woff") format("woff"), url("fonts/OpenSans/OpenSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("fonts/OpenSans/OpenSans-Bold.eot");
+  src: url("fonts/OpenSans/OpenSans-Bold?iefix") format("eot"), url("fonts/OpenSans/OpenSans-Bold.woff") format("woff"), url("fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+}
+
+.top-nav {
+  background-color: #BAE7EB;
+}
+
+.top-nav ul {
+  margin-bottom: 0;
+}
+
+.top-nav:before {
+  content: '';
+  display: block;
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  background-color: #BAE7EB;
+  top: 0;
+  right: 0px;
+  width: 20%;
+  height: 54px;
+}
+
+#mainmenu_link {
+
+  font-family: "Aleo-Light";
+  font-weight: 600;
+}
+
+header {
+  height: 15em;
+}
+
+header:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url(images/banner.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 14em;
+  top: 1em;
+  width: 80%;
+  left: 10%;
+}
+
+.course-title-block {
+  font-family: "Aleo-Light";
+  position: absolute;
+  margin: 4em 0em 1em 0em;
+  font-size: 2em;
+  border: 2px black solid;
+  padding: 5px 30px 5px 5px;
+}
+
+.course-title-block span {
+  display: block;
+  text-transform: uppercase;
+}
+
+.course-title-block span:first-of-type {
+  color: #678842;
+  font-weight: 600;
+}
+
+/* **********************************************************
+ * titles
+ * *********************************************************/
+main h1,
+main h2,
+main h3 {
+  font-family: "Aleo-Light";
+  font-weight: 600;
+}
+
+main h1 {
+  color: #678842;
+  font-size: 2.1em;
+  margin-top: 2em;
+}
+
+/* **********************************************************
+ * backnext
+ * *********************************************************/
+html header .backnext a {
+  background-color: #14808A;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+html header .backnext a.prev:before {
+  border-right-color: white;
+  margin: 5px 8px;
+}
+
+html header .backnext a.next:before {
+  border-left-color: white;
+  margin: 5px 8px;
+}
+
+html header .backnext a:hover, html header .backnext a:focus {
+  background-color: #12737D;
+}
+
+html header .backnext a:focus {
+  outline: 1px solid #000;
+}
+
+/* ***************************************************** */
+[href*="https://www.tpsgc"] {
+  outline: none;
+}
+
+.mimic-h2 {
+  font-size: 1.3em;
+  color: black;
+  margin-top: 0;
+}
+.mimic-h3 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 0;
+}
+p {
+  font-size: 17px;
+}
+
+figure {
+  padding: 10px;
+  box-shadow: 0px 0px 5px 3px #DDDDDD;
+}
+
+.the-list > span {
+  display: block;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.the-list > span > span {
+  display: block;
+  margin-left: 1.4em;
+}
+
+.the-button {
+  background-color: #55bb55;
+  color: #000;
+}
+
+.the-button:hover, .the-button:focus {
+  background-color: #66cc66;
+  color: #000;
+}
+
+.course-title-block:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #A2B63B;
+  z-index: -1;
+}
+
+/* *********************************************************
+ * VARS
+ * ********************************************************/
+/* *********************************************************
+ *
+ * ********************************************************/
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+header {
+  position: relative;
+}
+
+main {
+  min-height: 50vh;
+}
+
+/* *********************************************************
+ * BLOCK
+ * ********************************************************/
+.bypass-block {
+  position: fixed;
+  display: block;
+  background: white;
+  color: black;
+  top: 0px;
+  z-index: 1; /*need this to appear on top of anything else so it is visible when focused*/
+}
+
+.bypass-block a {
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+  display: block;
+  padding: 0;
+}
+
+.bypass-block a:focus {
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+}
+
+/* *********************************************************
+ * TOOLBOX
+ * ********************************************************/
+.top-nav {
+  position: absolute;
+  display: block;
+  right: 0px;
+}
+
+.top-nav h2 {
+  display: block;
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+  margin: 0;
+}
+
+.top-nav ul {
+  padding: 0;
+}
+
+.top-nav ul li {
+  display: inline-block;
+}
+
+.top-nav a {
+  color: black;
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  padding: 1.5em;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+.top-nav a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  margin: -1em;
+  padding: 0.75em;
+}
+
+.top-nav a.home:before {
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 199 191'%3E%3Cpath d='M196.81,69.39,105.5,3.05a8.8,8.8,0,0,0-10.34,0L3.85,69.39C2.39,70.78,1,72,1,78.81V186.58c.28,4,2.36,5.79,6.17,5.79H70V128.72a9.92,9.92,0,0,1,9.89-9.89h41.14a9.92,9.92,0,0,1,9.89,9.89v63.65h62.66c3.81,0,5.75-2.57,6.18-6.07L200,79.22C199.8,73.73,199.89,71.63,196.81,69.39Z' transform='translate(-1 -1.37)' fill='black'/%3E%3C/svg%3E");
+}
+
+.top-nav a.quit:before {
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 199.06 198.87'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:black;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M126.52,99.34,194.6,31.26a18.41,18.41,0,0,0,0-26,18.87,18.87,0,0,0-26,0L100.48,73.3,32.39,5.21a18.88,18.88,0,0,0-26,0,18.41,18.41,0,0,0,0,26.05L74.43,99.34,6.34,167.43a18.41,18.41,0,0,0,0,26,18.86,18.86,0,0,0,26.05,0l68.09-68.08,68.08,68.08a18.42,18.42,0,1,0,26-26ZM181.57,8.39' transform='translate(-0.94 0)'/%3E%3C/svg%3E");
+}
+
+.top-nav a.help:before {
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 132.1 200'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:black;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M34,55.22Q34,42.67,42,29.79T65.52,8.45Q81,0,101.59,0q19.14,0,33.81,7.07t22.66,19.22a47.12,47.12,0,0,1,8,26.42,40.82,40.82,0,0,1-4.56,19.68A60.4,60.4,0,0,1,150.66,87q-6.27,6.14-22.52,20.67a89.73,89.73,0,0,0-7.2,7.2,29,29,0,0,0-4,5.68,27.89,27.89,0,0,0-2,5.15q-.72,2.58-2.18,9.05-2.5,13.74-15.72,13.74A16.1,16.1,0,0,1,85.4,144q-4.68-4.49-4.69-13.34A46.91,46.91,0,0,1,93.26,97.16a209.53,209.53,0,0,1,15.33-14.6q8.44-7.4,12.22-11.16A37.8,37.8,0,0,0,127.15,63a20.36,20.36,0,0,0,2.57-10,23.34,23.34,0,0,0-7.86-17.83q-7.86-7.26-20.27-7.27-14.53,0-21.41,7.33T68.56,56.8q-4.49,14.94-17,14.93A16.73,16.73,0,0,1,39,66.51Q33.94,61.29,34,55.22ZM98.41,200a20.75,20.75,0,0,1-14.06-5.22q-6-5.22-6-14.6a18.8,18.8,0,0,1,5.81-14,19.64,19.64,0,0,1,14.26-5.68,19.4,19.4,0,0,1,19.69,19.68q0,9.25-5.95,14.54A20.06,20.06,0,0,1,98.41,200Z' transform='translate(-33.95)'/%3E%3C/svg%3E");
+}
+
+.top-nav a.home:hover:before, .top-nav a.home:focus:before {
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 199 191'%3E%3Cpath d='M196.81,69.39,105.5,3.05a8.8,8.8,0,0,0-10.34,0L3.85,69.39C2.39,70.78,1,72,1,78.81V186.58c.28,4,2.36,5.79,6.17,5.79H70V128.72a9.92,9.92,0,0,1,9.89-9.89h41.14a9.92,9.92,0,0,1,9.89,9.89v63.65h62.66c3.81,0,5.75-2.57,6.18-6.07L200,79.22C199.8,73.73,199.89,71.63,196.81,69.39Z' transform='translate(-1 -1.37)' fill='DarkGreen'/%3E%3C/svg%3E");
+}
+
+.top-nav a.quit:hover:before, .top-nav a.quit:focus:before {
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 199.06 198.87'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:DarkGreen;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M126.52,99.34,194.6,31.26a18.41,18.41,0,0,0,0-26,18.87,18.87,0,0,0-26,0L100.48,73.3,32.39,5.21a18.88,18.88,0,0,0-26,0,18.41,18.41,0,0,0,0,26.05L74.43,99.34,6.34,167.43a18.41,18.41,0,0,0,0,26,18.86,18.86,0,0,0,26.05,0l68.09-68.08,68.08,68.08a18.42,18.42,0,1,0,26-26ZM181.57,8.39' transform='translate(-0.94 0)'/%3E%3C/svg%3E");
+}
+
+.top-nav a.help:hover:before, .top-nav a.help:focus:before {
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 132.1 200'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:DarkGreen;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M34,55.22Q34,42.67,42,29.79T65.52,8.45Q81,0,101.59,0q19.14,0,33.81,7.07t22.66,19.22a47.12,47.12,0,0,1,8,26.42,40.82,40.82,0,0,1-4.56,19.68A60.4,60.4,0,0,1,150.66,87q-6.27,6.14-22.52,20.67a89.73,89.73,0,0,0-7.2,7.2,29,29,0,0,0-4,5.68,27.89,27.89,0,0,0-2,5.15q-.72,2.58-2.18,9.05-2.5,13.74-15.72,13.74A16.1,16.1,0,0,1,85.4,144q-4.68-4.49-4.69-13.34A46.91,46.91,0,0,1,93.26,97.16a209.53,209.53,0,0,1,15.33-14.6q8.44-7.4,12.22-11.16A37.8,37.8,0,0,0,127.15,63a20.36,20.36,0,0,0,2.57-10,23.34,23.34,0,0,0-7.86-17.83q-7.86-7.26-20.27-7.27-14.53,0-21.41,7.33T68.56,56.8q-4.49,14.94-17,14.93A16.73,16.73,0,0,1,39,66.51Q33.94,61.29,34,55.22ZM98.41,200a20.75,20.75,0,0,1-14.06-5.22q-6-5.22-6-14.6a18.8,18.8,0,0,1,5.81-14,19.64,19.64,0,0,1,14.26-5.68,19.4,19.4,0,0,1,19.69,19.68q0,9.25-5.95,14.54A20.06,20.06,0,0,1,98.41,200Z' transform='translate(-33.95)'/%3E%3C/svg%3E");
+}
+
+/* *********************************************************
+ * Main navigation
+ * ********************************************************/
+nav.main-nav {
+  position: absolute;
+  top: 15em;
+  margin-left: 0em;
+}
+
+nav.main-nav h2 {
+  margin: 0;
+}
+
+nav.main-nav h2 button {
+  color: #fff;
+  background-color: #465D2D;
+  display: block;
+  padding: .4em 1em;
+  line-height: 1.5em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
+}
+
+nav.main-nav h2 button:hover {
+  background-color: #678842;
+}
+
+nav.main-nav h2 button:focus {
+  outline: 1px solid black;
+}
+
+nav.main-nav ul {
+  background-color: #fafafa;
+  border: 1px solid #f1f1f1;
+  padding: 0px;
+  margin: 1px 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  z-index: 1;
+}
+
+nav.main-nav li {
+  list-style: none;
+}
+
+nav.main-nav ul>div {
+  color: #555;
+  display: block;
+  line-height: 1.5em;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+nav.main-nav ul>div:hover {
+  background-color: #e1e1e1;
+  cursor: pointer;
+}
+nav.main-nav ul>div:focus {
+  background-color: #e1e1e1;
+  outline: 2px solid #000;
+}
+
+/* *********************************************************
+ * backnext
+ * ********************************************************/
+header .backnext {
+  margin-top: 25px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+header .backnext a {
+  display: inline-block;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border: 1px #555 solid;
+  padding: 10px;
+}
+
+header .backnext a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 0;
+  height: 0;
+  margin: 3px 6px;
+}
+
+header .backnext a:focus, header .backnext a:hover {
+  background-color: #e1e1e1;
+}
+
+.backnext a.prev:before {
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-right: 7px solid black;
+}
+
+.backnext a.next:before {
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid black;
+}
+
+.backnext .pageof {
+  display: inline-block;
+  position: relative;
+  height: 17px;
+  top: 0;
+  font-size: 0.8em;
+  vertical-align: top;
+}
+
+footer .backnext {
+  text-align: right;
+  padding-bottom: 40px;
+  white-space: nowrap;
+}
+
+footer .backnext a {
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  color: #555;
+  text-decoration: none;
+}
+
+footer .backnext a:hover {
+  background-color: #e1e1e1;
+}
+
+/* *********************************************************
+ * disabke
+  * ********************************************************/
+.backnext .disabled {
+  cursor: default;
+  background-color: #e1e1e1 !important;
+  opacity: 0.5;
+}
+
+/* *********************************************************
+ * Buttons
+ * ********************************************************/
+button.quite-small {
+  padding: 1px;
+  line-height: 0.8; 
+  font-size: 11px;
+}
+button.quite-small[aria-pressed="true"], button.focus-rite[aria-pressed="true"] {
+  background-color: #C4C4C4;
+}
+.branch-title button {
+  background-color: #f1f1f1;
+  color: #000;
+  border-radius: 0;
+}
+.branch-title button:focus-visible {
+  outline: 2px solid #000;
+}
+/*# sourceMappingURL=theme.css.map */
+body {
+  overflow-x: hidden;
+}
+main:focus {
+  outline: none;
+}
+#execBranch, #legBranch {
+  display: none;
+}
+.branch-title {
+  display: inline-block;
+}
+.green {
+  color: #006B00;
+}
+.green:hover, .green:hover {
+  color: #008031;
+}
+.green:focus {
+  outline: none;
+}
+.green:visited, .green:visited {
+  color: #008000;
+}
+header .backnext {
+  background: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .pie-chart-cell {
+    display: none;;
+  }
+}

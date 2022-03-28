@@ -1,0 +1,23 @@
+{
+    "p1": {
+        "page": "p1",
+        "title": "Government Responsibility : Canada School of Public Service",
+        "title_fr": "Responsabilité du gouvernement : École de la fonction publique du Canada",
+        "nav": "Government Responsibility",
+        "nav_fr": "Responsabilité du gouvernement"
+    },
+    "p2": {
+        "page": "p2",
+        "title": "Separating Power : Canada School of Public Service",
+        "title_fr": "Séparation des pouvoirs : École de la fonction publique du Canada",
+        "nav": "Separating Power",
+        "nav_fr": "Séparation des pouvoirs"
+    },
+    "p3": {
+        "page": "p3",
+        "title": "What Do You Know? : Canada School of Public Service",
+        "title_fr": "Que savez-vous? : École de la fonction publique du Canada",
+        "nav": "What Do You Know?",
+        "nav_fr": "Que savez-vous?"
+    }
+}
